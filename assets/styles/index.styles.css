@@ -1,0 +1,165 @@
+footer {
+    display: none;
+}
+
+.main-container {
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    place-content: center;
+}
+
+.main-content {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.first-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 1rem;
+}
+
+.first-side>img {
+    width: 80%;
+    margin-left: -35px;
+}
+
+.first-side>h2 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.second-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+
+.login-container {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form>input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    transition: border 0.3s;
+}
+
+.form>input+input {
+    margin-top: 1rem;
+}
+
+.form>input::placeholder {
+    color: #ababab;
+}
+
+.form>input:focus {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.form>button {
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: filter 0.2s;
+}
+
+.form>button:hover, #create-new-account:hover {
+    filter: brightness(0.9);
+}
+
+#recovery-password {
+    text-align: center;
+    margin: 1rem;
+    color: var(--primary-color);
+}
+
+#recovery-password:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 2px solid var(--background-color);
+    width: 100%;
+}
+
+#create-new-account {
+    background-color: #42b72a;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    color: var(--tertiary-color);
+    font-weight: 700;
+    margin-top: 1rem;
+    transition: filter 0.2s;
+}
+
+.description {
+    max-width: 400px;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+}
+
+.description>a {
+    font-weight: 600;
+}
+
+.description>a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 720px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .first-side, .second-side {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .first-side>img {
+        margin: 0;
+    }
+    h2 {
+        text-align: center;
+    }
+    .second-side {
+        margin-top: 1rem;
+    }
+    .description {
+        text-align: center;
+    }
+}
