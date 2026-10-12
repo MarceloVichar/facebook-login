@@ -6,7 +6,12 @@ Abra o terminal na pasta onde você guarda seus projetos (por exemplo `~/projeto
 
 Vamos migrar e continuar um projeto que comecei numa sessão do Claude Code na nuvem. Siga as etapas na ordem e confirme cada uma antes de passar para a próxima.
 
-## 1. Trazer o projeto
+**Importante:**
+- O projeto vai ter um **repositório próprio e novo**, chamado `laboratorio-de-produtos`. Ele é o único lar do projeto daqui em diante.
+- O repositório `facebook-login` não tem nada a ver com este projeto. Ele só serviu de transporte, porque a sessão na nuvem só conseguia salvar lá. Use-o apenas para copiar os arquivos (etapa 1) e nunca mais trabalhe nem faça commit nele.
+- A princípio vou trabalhar **localmente**, nesta máquina, com este Claude Code CLI. Não use sessões na nuvem.
+
+## 1. Trazer os arquivos (só leitura do facebook-login)
 - Clone https://github.com/MarceloVichar/facebook-login.git numa pasta temporária e faça checkout do branch `ccr-f72cc16f-9urhz1`.
 - Copie a pasta `laboratorio-de-produtos/` desse branch para `./laboratorio-de-produtos`, no diretório atual. Ela contém o vault do Obsidian (`segundo-cerebro/`), `CLAUDE.md`, `README.md`, `docs/` e `apps/`.
 - Apague a pasta temporária do clone.
