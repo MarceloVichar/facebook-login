@@ -2,25 +2,35 @@
 tags:
   - oportunidade
   - mercado/br
-  - status/recomendada
+  - status/condicional
   - finalista
-status: recomendada
-veredito: CONDICIONAL
+status: condicional
+veredito: "CONDICIONAL (cunha nova: reforma NBR 16280 + vistoria de recebimento)"
 score: 21
 score_inicial: 25
 mercado: BR
-rodada: final
+rodada: "2"
+teste: "[[Carteira de testes]]"
 fonte:
   - "[[brazil_professional_niches]]"
   - "[[finalists_brazil_verification]]"
   - "[[Oportunidade de produto validada 2026]]"
+  - "[[laudos_validation]]"
+  - "[[Validação condicionais e novos focos]]"
 ---
 
 # Gerador de laudos de vistoria e inspeção
 
 Voltar para [[Ranking]].
 
-> [!tip] Aposta principal (CONDICIONAL, 21/35)
+> [!warning] Condicional (21/35), com a cunha trocada na rodada 2
+> A rodada 2 fez a verificação mais profunda de todas (302 consultas de autocomplete, censo na Play Store, raspagem do Hotmart e tabela de honorários do IBAPE-SP). O lado bom se confirmou, mas **G2 e G4 ficaram vermelhos na pesquisa de mesa** ([[Portões de aprovação]]). Duas mudanças:
+> 1. **A cunha deixa de ser inspeção predial e cautelar e passa a ser laudo/plano de reforma NBR 16280 + vistoria de recebimento**, os documentos de maior frequência. O **PL 159/2026** (Lite) é um bônus regulatório possível.
+> 2. **O teste começa pela mecânica real do produto:** um formulário web que gera o laudo de reforma e cobra **R$ 19 por Pix** ([[Carteira de testes]]).
+>
+> O texto abaixo, até "Rodada 2", é da rodada 1 e foi mantido como histórico.
+
+> [!tip] Rodada 1: aposta principal (CONDICIONAL, 21/35)
 > Foi a única finalista brasileira que sobreviveu ao teste de estresse. O critério que ela não cumpre é a **prova de pagamento**, que é também o mais barato de testar: **R$ 300–400 e 60 dias de pré-venda**, sem câmbio, sem risco contratual e no idioma do comprador. Roteiro em [[Protocolo de validação]].
 
 ## O que é
@@ -90,6 +100,7 @@ O diferencial tem de ser a **saída estruturada pela norma**: seções da NBR 16
 |---|---|---|---|---|---|---|---|---|
 | Final ([[finalists_brazil_verification]]) | 3 | 3 | 4 | 3 | 3 | 2 | 3 | **21/35** |
 | Exploratória ([[brazil_professional_niches]]) | 3 | 4 | 4 | 4 | 4 | 3 | 3 | 25/35 |
+| Rodada 2 ([[laudos_validation]]) | 3 | 2 | 4 | 2 | 4 | 3 | 3 | **21/35** |
 
 ## Preço, canal e construção (hipóteses das notas)
 
@@ -98,9 +109,31 @@ O diferencial tem de ser a **saída estruturada pela norma**: seções da NBR 16
 - **Construção:** MVP em 2–4 semanas com Claude Code: armazenamento offline de fotos, compressão, motor de layout DOCX/PDF, três modelos e cobrança por Pix e cartão.
 - **Tempo até a primeira receita:** ~4–8 semanas; a pré-venda pode antecipar.
 
+## Rodada 2: o que mudou
+
+**O lado bom se confirmou** ([[laudos_validation]]):
+- A hora técnica do IBAPE-SP é **R$ 625**, com mínimo de **R$ 6.875 por contrato**; o mercado cobra **R$ 500–3.500 por vistoria de recebimento** de apartamento em 2026 ([IBAPE-SP](https://www.ibape-sp.org.br/wp-content/uploads/2025/11/1744630330-regulamento-de-honorarios-2025-aprovado.pdf); [Monitor do Mercado](https://monitordomercado.com.br/noticias/409181-quanto-custa-contratar-uma-vistoria-profissional-antes-de-receber-as-chaves-do-apartamento/)). Uma ferramenta de R$ 79–149/mês custa menos de 10% de um único serviço.
+- **PL 159/2026** criaria o Laudo de Inspeção Técnica de Edificação (**Lite**), com 13 itens obrigatórios, entre eles foto de cada anomalia e classificação de prioridade, exatamente o que um gerador determinístico produz. Está "pronto para deliberação do plenário" do Senado desde 09/04/2026 ([Senado](https://legis.senado.leg.br/dadosabertos/processo?codigoMateria=172470); [texto do PL](https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/24d183db-0325-41b0-8993-83cb907dd560)). O profissional, não a ferramenta, assina e emite a ART (art. 7 do projeto).
+- Provas estrangeiras de SaaS não-IA de relatório de campo: Valideo (França, US$ 5.287 em 30 dias), FireCert (Reino Unido, US$ 5.003) e BasinCheck (US$ 2.235) ([TrustMRR Valideo](https://trustmrr.com/startup/valideo); [FireCert](https://trustmrr.com/startup/firecert); [BasinCheck](https://trustmrr.com/startup/basincheck)). Nenhuma é brasileira.
+
+**O lado ruim pesou mais:**
+- **G2:** a rodada 1 subestimou o **Onlaine**, incumbente de 15 anos com planos de R$ 89, R$ 139 e R$ 219 por usuário e "+3000 laudos/mês" autodeclarados ([Onlaine](https://www.onlaine.com.br/onlaine-inspecao.html)). O Howse, o novato mais parecido, tem **100+ downloads e 8 avaliações** ([Play](https://play.google.com/store/apps/details?id=com.leonelgregioauler.vistorias)). No Hotmart, dos **66 modelos datados desde 2025, só 1 tem avaliação**, e já há "geradores" a US$ 2–7 ([Hotmart](https://hotmart.com/pt-br/marketplace/produtos?q=nbr%2016280)).
+- **G4:** das **96 sondagens** "laudo + app/software/programa/gerador", só 11 trouxeram alguma sugestão; a única intenção de ferramenta relevante foi "relatório fotográfico", território do FotoGeo (100 mil+ downloads, módulos a R$ 9,90 por semestre) ([Play FotoGeo](https://play.google.com/store/apps/details?id=fotogeo.com.br.app)). Ver [[Padrão - busca por grátis e modelo]].
+- **Universo online pequeno:** o IBAPE tem ~2 mil associados, os maiores canais do YouTube têm 3–4 mil inscritos e o melhor curso da Udemy tem 400 alunos ([Udemy](https://www.udemy.com/course/inspecao-predial-e-plano-de-manutencao-para-condominios/)). A nota estima um público ativo online de ~3–15 mil. R$ 24.950/mês exigem 168–362 assinantes, ou 1–12% desse universo.
+
+**A cunha nova:** vídeos de laudo de reforma têm 8–12 mil views, e o lançamento de 453 mil unidades em 2025 alimenta as vistorias de entrega de chaves ([YouTube](https://youtu.be/KyUl6lKqW_4); [InfoMoney](https://www.infomoney.com.br/?p=3217679)). Modelos da fase 1: laudo/plano de reforma NBR 16280 e vistoria de recebimento. Fase 2: inspeção predial/Lite e cautelar em lote.
+
+**Cuidados de G7:** não reproduzir texto de norma da ABNT (o direito autoral é disputado: há decisões excluindo normas técnicas, mas a ABNT afirmou em set/2025 que as NBRs são protegidas ([Migalhas](https://www.migalhas.com.br/depeso/198566/justica-federal-confirma-que-normas-tecnicas-da-abnt-nao-sao-objeto-de-direitos-de-autor); [CFF](https://site.cff.org.br/noticia/Noticias-gerais/10/09/2025/abnt-alerta-para-distribuicao-nao-autorizada-de-norma-tecnica-sobre-exame-de-urina))); estruturar pelos itens públicos do PL 159; cláusula de LGPD para as fotos (a ferramenta é operadora, o engenheiro é controlador).
+
+**Teste da rodada 2** (detalhes em [[Carteira de testes]]):
+- **Variante barata, preferida:** formulário web do plano de reforma NBR 16280, até 30 fotos, **R$ 19 por Pix (Asaas)**, DOCX + PDF gerados no servidor; ~R$ 100 de anúncios exatos no cluster de reforma. **Passa:** ≥ 5 laudos pagos em 14 dias, ou ≥ 2 clientes que voltam. **Falha:** 0–1 laudo pago.
+- **Se passar, teste completo de 21 dias (≤ R$ 500):** kits a R$ 47–97 e pré-venda de fundador a R$ 390/ano. **GO:** ≥ 10 kits e ≥ 3 pré-vendas. **KILL:** ≤ 2 kits e 0 pré-vendas depois de ≥ 250 cliques qualificados e ≥ 20 conversas, ou CPC mediano > R$ 5.
+
 ## Veredito
 
-**CONDICIONAL.** Vira GO se a pré-venda passar. As condições, da nota de verificação:
+**Rodada 2: CONDICIONAL**, com a cunha nova e o teste por laudo. Não passa em todas as portas pela pesquisa de mesa e não deve ser morta pela pesquisa de mesa: só estranhos pagando fecham G1, G2, G4 e G8 ([[laudos_validation]], seção 6).
+
+**Rodada 1:** CONDICIONAL. Vira GO se a pré-venda passar. As condições, da nota de verificação:
 1. Publicar 3 modelos gratuitos estruturados pela norma (NBR 16747/autovistoria RJ, cautelar com estrutura IBAPE, recebimento de imóvel novo) e medir tráfego e conversão de modelo para cadastro **antes** do app completo.
 2. Pré-vender **5–10 planos anuais** (~R$ 600–1.200/ano).
 3. Diferenciar por saída **determinística e normativa**, não por IA.
@@ -108,6 +141,8 @@ O diferencial tem de ser a **saída estruturada pela norma**: seções da NBR 16
 
 ## Notas de pesquisa
 
+- [[laudos_validation]], seções 6 e 7 (rodada 2)
+- [[Validação condicionais e novos focos]], seção "Laudos sobrevivem, mas a cunha muda"
 - [[Oportunidade de produto validada 2026]], seção "Laudos de engenharia: lacuna real, pagamento ainda por provar"
 - [[finalists_brazil_verification]], "Finalist 2" e "Scores and ranked verdicts"
 - [[brazil_professional_niches]], candidato A (seções 1.8, 2 e 4)

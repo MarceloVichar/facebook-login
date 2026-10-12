@@ -37,6 +37,12 @@ Voltar para [[Armadilhas e ideias mortas]].
 - Perguntar direto ao suporte de parceiros (a Nuvemshop promete resposta em até 1 hora).
 - Preferir apps **só de API** quando possível: na Nuvemshop, ficam fora da obrigação do NubeSDK.
 
+## Rodada 2
+
+- **Hotmart:** integrações gratuitas, recuperação de vendas e agente de vendas nativos absorveram os add-ons para criadores ([Hotmart](https://hotmart.com/pt-br/integracoes); [[brazil_emerging_platforms]], C10).
+- **ClickUp:** está construindo a sincronização de calendário que seria um add-on ([[unmet_feature_requests]]).
+- **TikTok Shop:** o próprio TikTok e a ByteDance (BytePlus Live) se sobrepõem às ferramentas de live ([[Lucro por live e comissão de host no TikTok Shop]]).
+
 ## Relacionadas
 
-[[Padrão - governo entrega de graça]] · [[Padrão - saturação]]
+[[Padrão - governo entrega de graça]] · [[Padrão - saturação]] · [[Padrão - pagamento e CNPJ bloqueiam rotas]]

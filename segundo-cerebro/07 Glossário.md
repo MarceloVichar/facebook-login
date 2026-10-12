@@ -18,13 +18,17 @@ Voltar para [[00 Início]]. Termos que aparecem nas notas, em ordem alfabética,
 - **ARPA**: receita média por conta (average revenue per account). Churn e prazos dependem muito dela ([[Expectativas e prazos]]).
 - **ARR**: receita recorrente anual (annual recurring revenue); ≈ MRR × 12.
 - **Autovistoria**: inspeção predial periódica obrigatória em algumas cidades. No Rio, a cada no máximo 5 anos, por engenheiro ou arquiteto com ART/RRT.
+- **BNCC**: Base Nacional Comum Curricular. Na educação infantil, organiza a etapa em 5 campos de experiência; o parecer descritivo é o instrumento oficial de avaliação ([[Gerador de parecer descritivo da educação infantil]]).
 - **CAC**: custo de aquisição de cliente (customer acquisition cost), o quanto se gasta em marketing e vendas para conquistar um cliente pagante. O autor do thread: *"Dependendo do CAC pode valer a pena!"* ([[Thread X napoleaomp4]]).
+- **CAdES / .p7m / .p7s**: formato de assinatura digital que embrulha o documento num envelope. Na Itália, documentos públicos chegam como .p7m, que nenhum sistema operacional abre sozinho ([[Visualizador de p7m para a Itália]]). No Brasil, o .p7s do ICP-Brasil é validado de graça pelo Validar do ITI.
 - **Carnê-Leão**: recolhimento mensal de IR da pessoa física sobre rendimentos recebidos de pessoas físicas ou do exterior, até o último dia útil do mês seguinte ([[Pagamentos e impostos]]).
 - **CASA**: Cloud Application Security Assessment, a avaliação de segurança anual por terceiro que o Google exige de apps que usam **escopos restritos** (Gmail, Drive). Escopos de Calendar e Sheets não exigem CASA, só verificação de escopo sensível ([[Sync Google Sheets e Google Calendar]]).
 - **CBAM**: mecanismo de ajuste de carbono na fronteira da UE; regime definitivo desde 2026, com isenção de minimis de 50 toneladas ([[Ferramenta de CBAM]]).
+- **CBLE**: Customs Broker License Exam, o exame federal americano de despachante aduaneiro: 80 questões, 4,5 horas, 75% para passar, US$ 390 de inscrição. A CBP publica as provas anteriores com gabarito ([[Simulado do exame de despachante aduaneiro dos EUA (CBLE)]]).
 - **CDC art. 49**: direito de arrependimento de 7 dias em compras fora do estabelecimento comercial, como as online. Base da política de reembolso de 7 dias.
 - **Certified Mail**: carta registrada do USPS, com comprovante de envio e rastreio; pode ter aviso de recebimento (return receipt) físico ou eletrônico ([[Cartas registradas online (EUA e Reino Unido)]]).
 - **Churn**: taxa de cancelamento por período. Para ARPA abaixo de US$ 25, a mediana é ~6,1% ao mês.
+- **CNSP 493/2026**: resolução que consolida as regras de corretores de seguros (DOU de 21/07/2026, vigência ~17/01/2027). Mantém a habilitação por exame ou por curso e prevê habilitações específicas por ramo ([[Simulado do exame de corretor de seguros (SUSEP)]]).
 - **Confea / CREA / CAU**: conselhos profissionais de engenharia, agronomia e geociências (Confea, federal; CREAs, regionais) e de arquitetura (CAU).
 - **Connect (Atlassian)**: framework antigo de apps da Atlassian, que entra em fim de suporte no 4º trimestre de 2026. Ver **Forge**.
 - **CPC / CTR**: custo por clique e taxa de cliques. A referência global de Google Ads é US$ 5,26 de CPC; o CPC brasileiro para software não foi medido.
@@ -43,8 +47,10 @@ Voltar para [[00 Início]]. Termos que aparecem nas notas, em ordem alfabética,
 - **Fator R**: razão entre folha de pagamento (incluindo pró-labore) e receita bruta dos últimos 12 meses. Se ≥ 28%, atividades como licenciamento de software vão para o Anexo III do Simples (6% na 1ª faixa); abaixo, para o Anexo V (15,5%). Um pró-labore de um salário mínimo (R$ 1.621) cumpre o Fator R até ~R$ 5,8 mil/mês de receita ([[Pagamentos e impostos]]).
 - **FMCSA / DOT**: Federal Motor Carrier Safety Administration e o número DOT de registro de transportadoras nos EUA. Os dados de registro são públicos ([[Feed de transportadoras recém-registradas (FMCSA)]]).
 - **Forge**: plataforma atual de apps da Atlassian (Jira, Confluence), que roda na infraestrutura da Atlassian. Desde 1/1/2026, o parceiro fica com 100% da receita Forge até US$ 1 milhão vitalício ([[App Forge de Gantt para Jira]]).
+- **G1–G8**: as oito portas que uma ideia precisa passar ao mesmo tempo para ser aprovada, introduzidas na rodada 2 ([[Portões de aprovação]]).
 - **GeoJSON**: formato de dados geográficos exigido pelo TRACES para as parcelas do EUDR.
 - **GPSR**: regulamento europeu de segurança geral de produtos, aplicável desde dezembro de 2024 ([[Gerador de GPSR]]).
+- **Gumroad**: merchant of record a 10% + US$ 0,50 que, ao contrário do Paddle, permite cursos e preparatórios. O Brasil não está na lista de repasse bancário: o repasse é só por PayPal, a testar com US$ 1 ([[Carteira de testes]]).
 - **GUT**: matriz Gravidade × Urgência × Tendência, usada para priorizar anomalias em laudos de inspeção predial.
 
 ## H–N
@@ -54,22 +60,27 @@ Voltar para [[00 Início]]. Termos que aparecem nas notas, em ordem alfabética,
 - **IOF zero na exportação**: alíquota zero de IOF no câmbio de receitas de exportação de serviços (Decreto 6.306, art. 15-B I), se o banco registrar a operação como tal.
 - **IRPFM**: imposto de renda mínimo para pessoas físicas com renda acima de R$ 600 mil/ano, criado pela Lei 15.270/2025 ([[Planejador de IRPFM e dividendos]]).
 - **Keyword Planner**: ferramenta do Google Ads que estima volume de busca e CPC. É o primeiro passo antes de gastar ([[Próximos passos]]).
+- **LAI / Fala.BR**: Lei de Acesso à Informação (Lei 12.527/2011) e a plataforma federal onde se protocolam os pedidos. Usada para pedir à SUSEP e à FGV os números do exame de corretor ([[Carteira de testes]]).
 - **Lei 15.270/2025**: reforma do IR. Zera o imposto para rendimento tributável de até R$ 5 mil/mês desde jan/2026, cria retenção de 10% sobre dividendos acima de R$ 50 mil/mês e o IRPFM.
 - **LGPD**: Lei Geral de Proteção de Dados (Lei 13.709/2018). O art. 9 lista o que o aviso de privacidade deve informar.
+- **Lite (PL 159/2026)**: Laudo de Inspeção Técnica de Edificação que o projeto de lei criaria, com 13 itens obrigatórios. Está pronto para o plenário do Senado desde 09/04/2026; é o bônus regulatório do [[Gerador de laudos de vistoria e inspeção]].
 - **Lob / PostGrid / Stannp**: APIs de impressão e postagem de cartas. Os termos de Lob e PostGrid restringem revenda e acesso de terceiros ([[Cartas registradas online (EUA e Reino Unido)]]).
 - **ME / EPP / MEI**: microempresa, empresa de pequeno porte e microempreendedor individual. Programação **não** é atividade permitida ao MEI em outubro de 2026 (o PLP 25/2026 passou só por uma comissão).
-- **Merchant of Record (MoR)**: empresa que vende legalmente em seu nome no lugar do desenvolvedor e cuida de impostos (VAT, sales tax), fraude e contestações. Para quem mora no Brasil, o confiável é o **Paddle** (5% + 50¢), que não aceita produto com entrega física. O Polar não paga no Brasil ([[Pagamentos e impostos]]).
+- **Merchant of Record (MoR)**: empresa que vende legalmente em seu nome no lugar do desenvolvedor e cuida de impostos (VAT, sales tax), fraude e contestações. Para quem mora no Brasil, o principal é o **Paddle** (5% + 50¢), mas ele proíbe preparatórios de exame, serviços de governo, entrega física e ferramentas de avaliação, e restringe televendas. O **Gumroad** aceita preparatórios e repassa via PayPal; o Polar não paga no Brasil ([[Pagamentos e impostos]], [[Padrão - pagamento e CNPJ bloqueiam rotas]]).
 - **MRR**: receita recorrente mensal (monthly recurring revenue). A meta do projeto é US$ 5 mil de MRR ([[Expectativas e prazos]]).
 - **NBR 12722**: norma da ABNT sobre discriminação de serviços para construção, citada como referência da vistoria cautelar (a pesquisa não conseguiu confirmar se ela exige a cautelar; a norma é paga).
 - **NBR 14653**: norma da ABNT de avaliação de bens; a parte 2 trata de imóveis urbanos (homogeneização, graus de fundamentação e precisão). Não foi verificado se o corretor pode emitir avaliação com base nela ([[Gerador de PTAM para corretores]]).
+- **NBR 16280**: norma da ABNT de **reforma em edificações**, base do laudo e do plano de reforma de unidades em condomínio. É a cunha nova do [[Gerador de laudos de vistoria e inspeção]] desde a rodada 2.
 - **NBR 16747**: norma da ABNT de **inspeção predial** (1ª edição em 21/05/2020). É a base do modelo de laudo de inspeção predial/autovistoria ([[Gerador de laudos de vistoria e inspeção]]).
 - **NFS-e / Emissor Nacional**: nota fiscal de serviço eletrônica no padrão nacional e o emissor gratuito do governo. Obrigatória para ME/EPP do Simples em 1/9/2026 ou 1/11/2026, conforme a fonte; confirmar com contador.
+- **NPPES / NPI**: cadastro nacional de prestadores de saúde dos EUA e o número de identificação de cada um. O arquivo semanal de novos registros é público ([[Feed semanal de novas práticas de saúde (NPPES)]]).
 - **NR-1 / GRO / PGR / COPSOQ**: norma regulamentadora de gestão de riscos ocupacionais, o gerenciamento de riscos, o programa de gerenciamento de riscos e o questionário psicossocial COPSOQ (versão brasileira gratuita). As sanções da parte psicossocial estão suspensas pelo STF ([[Plataforma NR-1 psicossocial (COPSOQ)]]).
 - **NubeSDK**: SDK obrigatório da Nuvemshop para apps que injetam scripts na vitrine. Apps não migrados saíram da loja em 30/9/2026, e a desinstalação progressiva começa em 30/10/2026. Apps só de API ou só de Admin estão fora ([[Atacado e B2B para Nuvemshop (NubeSDK)]]).
 
 ## P–Z
 
 - **Paddle**: ver **Merchant of Record**.
+- **Parecer descritivo**: relatório individual de avaliação da criança na educação infantil, sem nota, alinhado à BNCC ([[Gerador de parecer descritivo da educação infantil]]).
 - **Pix Automático**: Pix recorrente com autorização única do pagador, lançado em junho de 2025 ([[Camada de cobrança Pix Automático]]).
 - **Pré-venda**: cobrar antes de construir, com reembolso garantido. É o sinal mais forte de validação ([[Protocolo de validação]]).
 - **Pró-labore**: remuneração do sócio pelo trabalho na empresa; entra na folha para o cálculo do Fator R.
@@ -83,6 +94,7 @@ Voltar para [[00 Início]]. Termos que aparecem nas notas, em ordem alfabética,
 - **Simples Nacional**: regime tributário simplificado para ME/EPP; recolhimento unificado no DAS.
 - **Smoke test**: página de oferta com preço visível publicada antes do produto, para medir interesse.
 - **Spectora**: software americano de relatórios de inspeção residencial, com ~US$ 5,9 milhões de receita estimada e 9 mil+ inspetores. É o análogo dos laudos.
+- **SUSEP**: Superintendência de Seguros Privados, que registra os corretores de seguros. O exame de habilitação é aplicado pela FGV e pela ENS ([[Simulado do exame de corretor de seguros (SUSEP)]]).
 - **Tier 1**: no jargão de marketing digital, os países de maior poder de compra (EUA, Reino Unido, Canadá, Austrália etc.).
 - **TRACES**: sistema da UE onde se enviam as DDS do EUDR.
 - **Tranco**: ranking dos sites mais visitados (top 1 milhão), usado como proxy de tráfego. Nenhum varejista pequeno de cartas está no top 1 milhão.

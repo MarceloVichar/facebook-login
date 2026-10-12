@@ -38,3 +38,20 @@ A ideia que sobreviveu, o [[Gerador de laudos de vistoria e inspeção]], tem o 
 ## Relacionadas
 
 [[Padrão - plataforma absorve o recurso]] · [[Padrão - saturação]]
+
+## Rodadas 2 e 3: a regra ganha uma nuance
+
+> [!note] A ferramenta grátis só mata quando ocupa a busca comercial
+> O **P7M.io** fatura US$ 4.627 em 30 dias apesar dos visualizadores gratuitos dos certificadores italianos, porque eles não dominam a busca comercial ([[Visualizador de p7m para a Itália]]). A regra "o governo dá de graça" é um **teto de preço**, não sempre uma sentença ([[trustmrr_newcomers]]).
+
+Novos casos em que o Estado entregou de graça e matou a ideia:
+
+| Ideia | O que o Estado entregou |
+|---|---|
+| Visualizador de .p7s para o Brasil (rodada 3) | O Validar do ITI, gratuito ([ITI](https://h-validar.iti.gov.br/Docs/cartilha-de-uso.pdf)) |
+| Livro de Reclamações e recibos de renda em Portugal (rodada 2) | Portais oficiais (livroreclamacoes.pt, Portal das Finanças) |
+| Alertas de licitação para MEIs (rodada 2) | O Contrata+Brasil avisa por WhatsApp ([Jornal Contábil](https://jornalcontabil.com.br/noticia/contratabrasil-amplia-participacao-do-mei-com-34-novas-ocupacoes/)) |
+| Compliance da Lei Karin no Chile (rodada 2) | Protocolos oferecidos pelas mútuas |
+| Regras de drone no Brasil (rodada 3) | SISANT e SARPAS, da ANAC e do DECEA |
+
+Risco ainda aberto: o [[Preparatório do teste de nacionalidade portuguesa]] morre se o Estado publicar um banco de questões oficial grátis, como fez o Instituto Cervantes na Espanha.

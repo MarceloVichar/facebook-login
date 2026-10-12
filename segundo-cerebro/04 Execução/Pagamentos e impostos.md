@@ -18,6 +18,9 @@ Voltar para [[00 Início]].
 > - A **data da NFS-e nacional obrigatória** para ME/EPP do Simples. As notas divergem: **1/9/2026** pela Res. CGSN 189/2026 ([COAD](https://www.coad.com.br/home/noticias-detalhe/137522/nfs-e-de-padrao-nacional-sera-obrigatoria-para-empresas-do-simples-nacional)) ou **1/11/2026** pela Res. CGSN 191/2026, que a teria substituído ([Conta Azul](https://contaazul.com/blog/nfse-padrao-nacional/)).
 > - Se vendas a brasileiros **via Paddle** contam como exportação para a imunidade de IBS/CBS a partir de 2027 (LC 214, art. 80, §1º-A).
 
+> [!warning] Atualização das rodadas 2 e 3: o Paddle não serve para tudo
+> A política do Paddle (13/04/2026) proíbe **preparatórios de exame**, **serviços de governo**, **entrega física** e **ferramentas automáticas de avaliação**, e restringe **televendas**. Para preparatórios vendidos fora do Brasil, a rota é o **Gumroad** (10% + US$ 0,50), que repassa ao Brasil só via PayPal, a confirmar com um teste de US$ 1. TikTok Shop, Shopee e Temu exigem CNPJ, e o MEI não cobre programação. Detalhes em [[Padrão - pagamento e CNPJ bloqueiam rotas]]; uso em cada teste em [[Carteira de testes]].
+
 ## Fase A: validação (semanas 0–6), no CPF
 
 | Provedor | CPF? | Pix | Cartão | Observação |

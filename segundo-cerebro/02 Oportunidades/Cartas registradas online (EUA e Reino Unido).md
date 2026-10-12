@@ -2,25 +2,31 @@
 tags:
   - oportunidade
   - mercado/global
-  - status/alternativa
+  - status/morta
   - finalista
-status: alternativa
-veredito: CONDICIONAL
-score: 21
+status: morta
+veredito: "KILL na rodada 2 (G8: margem estrutural)"
+score: 23
+score_final_rodada1: 21
 score_inicial: 28
 mercado: global
-rodada: final
+rodada: "2"
 fonte:
   - "[[verified_revenue_niches]]"
   - "[[finalists_global_verification]]"
   - "[[Oportunidade de produto validada 2026]]"
+  - "[[certified_mail_validation]]"
+  - "[[Validação condicionais e novos focos]]"
 ---
 
 # Cartas registradas online (EUA e Reino Unido)
 
-Voltar para [[Ranking]].
+Voltar para [[Ranking]] · [[Armadilhas e ideias mortas]].
 
-> [!tip] Alternativa nº 1 (CONDICIONAL, 21/35)
+> [!failure] Morta na rodada 2 (23/35, mas G8 FAIL): o bloqueio contratual caiu, a matemática não fecha
+> A **LetterStream** oferece revenda white-label por escrito ("Monetization Mode") e o **Stripe Brasil** aceita conta em CPF, o que resolveu os bloqueios da rodada 1. Mas a taxa fixa dos Correios americanos (US$ 8,46 entre Certified e aviso eletrônico) deixa **US$ 6–11 de margem por carta**, e US$ 5 mil/mês exigiriam **470–800 cartas por mês** antes de qualquer anúncio ([[certified_mail_validation]]). O texto abaixo, até "Rodada 2", é da rodada 1.
+
+> [!tip] Rodada 1: alternativa nº 1 (CONDICIONAL, 21/35)
 > Nenhuma outra candidata tem prova tão boa de que **um estreante sem audiência consegue faturar**. Mas a margem é fina, o mercado é lotado e há bloqueios **contratuais e de pagamento** que dependem de terceiros. O ticket com a Lob custa zero e pode ser aberto hoje, em paralelo aos laudos.
 
 ## O que é
@@ -76,9 +82,32 @@ Conta da nota de verificação, a partir de preços verificados:
 
 A rodada final colocou as cartas **acima** do Jira (22) de propósito: é a única finalista com evidência verificada de que um estreante sem audiência chegou a US$ 4–6 mil em 30 dias.
 
+## Rodada 2: o veredito final
+
+**O que se resolveu (G7, passa com condição):**
+- A LetterStream tem um "Monetization Mode" público para revender correspondência "under your own brand", com carta certificada, rastreio e assinatura via API ([LetterStream API](https://www.letterstream.com/api)).
+- A Lob anuncia white-label para plataformas, mas seus termos ainda exigem autorização por escrito ([Lob Platforms](https://www.lob.com/use-cases/platforms); [Lob SST](https://www.lob.com/service-specific-terms)).
+- O Stripe Brasil aceita pessoa física, e correspondência não está na lista restrita ([Stripe restricted](https://stripe.com/legal/restricted-businesses)).
+
+**Por que morre (G8):**
+- USPS: US$ 5,55 pela certificação + US$ 2,91 pelo aviso eletrônico; o atacado sai a US$ 10,93–11,54 por peça ([USPS Notice 123](https://pe.usps.com/text/dmm300/Notice123.htm); [LetterStream preços](https://www.letterstream.com/mailing/pricing)).
+- Ao preço da PostalForm (US$ 11,80), a contribuição fica **negativa** depois das taxas do Stripe Brasil (≈8% + R$ 0,39 em cartão internacional, R$ 55 por contestação). A US$ 19,95 sobram US$ 6,29 por carta (~795 cartas/mês para US$ 5 mil); a US$ 24,95, US$ 10,71 (~467 cartas) ([Stripe BR](https://stripe.com/br/pricing)).
+- Os vencedores perderam brilho: a PostalForm fez US$ 6.366 em 30 dias, mas já ocupa os nichos verticais (avisos de locador por estado, cobradores, IRS, academia) em 547 URLs; a Send Letters Online caiu 25,7% e estacionou em US$ 5,3–5,8 mil/mês; o Postage.TO fatura US$ 192 e está à venda ([TrustMRR PostalForm](https://trustmrr.com/startup/postal-form); [sitemap](https://postalform.com/sitemap-pages-1.xml); [TrustMRR SLO](https://trustmrr.com/startup/send-letters-online-uk)).
+- O alvo exigiria faturar **1,8–3,4 vezes o melhor novato verificado**, em páginas onde ele chegou primeiro.
+
+| Rodada 2 ([[certified_mail_validation]]) | WTP | Saturação | Poder | Distribuição | Construção | Velocidade | Risco | Total |
+|---|---|---|---|---|---|---|---|---|
+| Cartas registradas | 5 | 2 | 3 | 3 | 5 | 3 | 2 | **23/35** |
+
+A nota subiu com a solução do fornecedor, mas a pontuação não captura a falha em G8.
+
+**Teste opcional que sobrou (não recomendado):** ~US$ 100 para uma página de carta ao IRS a US$ 19,95; parar com menos de 3 pedidos ou CAC acima de US$ 10. A carta pronta para a LetterStream está em [[certified_mail_validation]], Q6.
+
 ## Veredito
 
-**CONDICIONAL GO.** Só seguir se as três condições forem verdadeiras:
+**Rodada 2: KILL** para a meta de US$ 5 mil/mês. Motivo registrado pela nota: *"margem estrutural: a taxa USPS de US$ 8,46 (Certified + ERR) é piso para todos; o vencedor verificado fatura US$ 6,4k/mês de receita, não de lucro."*
+
+**Rodada 1 (histórico): CONDICIONAL GO.** Só seguir se as três condições forem verdadeiras:
 1. **Autorização por escrito da Lob** (ou de outro provedor) para uma loja voltada ao consumidor.
 2. Uma conta **Stripe Brasil** que aceite checkout internacional para esse serviço.
 3. Lançamento com um **nicho vertical** (avisos de locador por estado, cartas de contestação, notificações ao HMRC/DVLA) em vez de "envie uma carta".
@@ -87,6 +116,8 @@ Se qualquer uma falhar, a ideia morre. Construção estimada em 1–2 semanas co
 
 ## Notas de pesquisa
 
+- [[certified_mail_validation]], Q1–Q6 (rodada 2)
+- [[Validação condicionais e novos focos]], seção "Cartas registradas: o bloqueio contratual caiu"
 - [[Oportunidade de produto validada 2026]], seção "Cartas registradas online têm a melhor prova, mas margem fina"
 - [[finalists_global_verification]], Q1 e Q6
 - [[verified_revenue_niches]], candidato C1 (questões 1, 2, 5 e 6)

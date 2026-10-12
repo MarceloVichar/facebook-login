@@ -20,6 +20,9 @@ Voltar para [[Ranking]] · [[Armadilhas e ideias mortas]].
 > [!warning] Armadilha (16/35)
 > Disposição a pagar provada, mas concorre com o Emissor Nacional gratuito e com uma fila de APIs e ERPs.
 
+> [!note] Reforçada na rodada 2
+> A regra da Shopee de 01/08/2026, que obriga afiliados PJ a emitir NFS-e para a Comissão Extra, parecia reabrir a ideia. A Conta Azul lançou ferramenta em 24/07 e houve pelo menos seis ofertas em cerca de 10 semanas: **a janela abriu e fechou no mesmo trimestre** ([[brazil_emerging_platforms]], C1; [Conta Azul](https://contaazul.com/blog/como-emitir-nota-fiscal-afiliado-shopee-na-conta-azul/)).
+
 ## O que é
 
 Emissor ou API de NFS-e no padrão nacional para prestadores do Simples.

@@ -9,6 +9,9 @@ atualizado: 2026-10-12
 
 Voltar para [[00 Início]] · checklist em [[Próximos passos]].
 
+> [!tip] Rodadas 2 e 3
+> O roteiro de 60 dias abaixo foi desenhado na rodada 1 para os laudos. Depois das rodadas 2 e 3, o plano em execução é a [[Carteira de testes]]: testes mais curtos e mais baratos, em ordem de prazo, incluindo o novo teste dos laudos (R$ 19 por laudo de reforma NBR 16280). As regras de decisão desta nota continuam valendo onde a carteira não define um limiar.
+
 > [!important] Princípio
 > **Só dinheiro de desconhecidos é sinal forte.** E-mail em lista de espera é sinal fraco. Pré-venda, depósito reembolsável ou trial com cartão obrigatório são sinais fortes ([[gtm_economics_payments]], seção 4).
 

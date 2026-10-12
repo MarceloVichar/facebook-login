@@ -2,23 +2,29 @@
 tags:
   - oportunidade
   - mercado/global
-  - status/condicional
+  - status/morta
   - promissora
-status: condicional
-veredito: NÃO TESTADA NA RODADA FINAL (próxima a verificar)
-score: 24
+status: morta
+veredito: "KILL na rodada 2 (saturação)"
+score: 23
+score_inicial: 24
 mercado: global
-rodada: exploratória
+rodada: "2"
 fonte:
   - "[[verified_revenue_niches]]"
   - "[[Oportunidade de produto validada 2026]]"
+  - "[[public_records_data]]"
+  - "[[Validação condicionais e novos focos]]"
 ---
 
 # Feed de transportadoras recém-registradas (FMCSA)
 
-Voltar para [[Ranking]].
+Voltar para [[Ranking]] · [[Armadilhas e ideias mortas]].
 
-> [!tip] A próxima a verificar (24/35, rodada exploratória)
+> [!failure] Morta na rodada 2 (23/35): a "próxima a verificar" foi verificada e estava lotada
+> Em 2026 surgiram **pelo menos oito SaaS e 67 atores no Apify** sobre o mesmo censo gratuito. O TruckerDB, única receita verificada, tem 20 assinantes ([TrustMRR TruckerDB](https://trustmrr.com/startup/truckerdb); [Apify Store](https://api.apify.com/v2/store?search=fmcsa&limit=40); [TruckingLists](https://truckinglists.com/pricing)). O substituto indicado é o [[Feed semanal de novas práticas de saúde (NPPES)]]. O texto abaixo, até "Rodada 2", é da rodada 1.
+
+> [!tip] Rodada 1: a próxima a verificar (24/35, rodada exploratória)
 > Das ideias que não passaram pela rodada final, é **a que mais merece a próxima verificação**. Tem um concorrente com **receita verificada** sobre **dados públicos gratuitos** e só usa SEO como canal. Segue o mesmo padrão dos laudos: o valor está no formato e no filtro, não em IA. O relatório indica esta como o plano C se os laudos falharem.
 
 ## O que é
@@ -66,11 +72,25 @@ TruckerDB é o único medido. **A densidade de concorrentes de listas FMCSA não
 - **Se a FMCSA estiver lotada,** o mesmo padrão de construção se transfere para outros datasets públicos (os análogos Harper e Subbasta).
 - **Pagamento:** como produto digital vendido no exterior, cabe no Paddle ([[Pagamentos e impostos]]).
 
+## Rodada 2: o veredito final
+
+- **O pipeline funciona** (cobertura de ~100% de e-mail e telefone, atualização diária) e a demanda existe ([[public_records_data]], Key question 4).
+- **O censo de concorrentes matou a ideia:** pelo menos 8 vendedores SaaS e 67 atores no Apify. A receita do TruckerDB ficou pública em 2026 e, no mesmo ano, surgiram TruckingLists, Carrier Signal e Truckr sobre o mesmo dado ([newauthorityleads.com](https://newauthorityleads.com/)). É o caso-modelo de [[Padrão - pesquisa de mesa não aprova G1 e G2]].
+- **Riscos adicionais:** risco de dados da Motus e a cláusula de telemarketing do Paddle ([[Padrão - pagamento e CNPJ bloqueiam rotas]]).
+
+| Rodada 2 ([[public_records_data]]) | WTP | Saturação | Poder | Distribuição | Construção | Velocidade | Risco | Total |
+|---|---|---|---|---|---|---|---|---|
+| Feed FMCSA | 5 | 1 | 4 | 3 | 5 | 3 | 2 | **23/35** |
+
 ## Veredito
 
-**Condicional, à espera de verificação.** É a próxima candidata a passar pelo teste de estresse caso os laudos sejam abandonados.
+**Rodada 2: KILL** (saturação). A nota recomenda rebaixar o "plano C" do vault para morto.
+
+**Rodada 1 (histórico): condicional, à espera de verificação.** É a próxima candidata a passar pelo teste de estresse caso os laudos sejam abandonados.
 
 ## Notas de pesquisa
 
+- [[public_records_data]], Key questions 1, 3 e 4 (rodada 2)
+- [[Validação condicionais e novos focos]], seção "Nenhum candidato fecha as oito portas"
 - [[Oportunidade de produto validada 2026]], seções "Ideias promissoras que não passaram pela rodada final" e "Conclusão"
 - [[verified_revenue_niches]], questões 1, 2, 5 e 6 (candidato C2)

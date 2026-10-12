@@ -27,6 +27,10 @@ Voltar para [[Armadilhas e ideias mortas]].
 | [[Plugin WooCommerce freemium]] | 71.295 plugins no WordPress.org |
 | Conversores de extrato bancário | Vários com receita, mas entrantes recentes parados (SimpleBankExcel US$ 0) e LLMs fazendo o trabalho |
 | Vistoria de locação, PMOC, autogestão de locador | Devolus há 10+ anos; Meu Pmoc com plano grátis; 6+ apps de locador |
+| [[Feed de transportadoras recém-registradas (FMCSA)]] (rodada 2) | 8+ SaaS e 67 atores no Apify em 2026 |
+| [[Gerador de laudos de vistoria e inspeção]] (rodada 2) | Onlaine há 15 anos; 66 kits no Hotmart desde 2025, só 1 com avaliação |
+| Apps do TikTok Shop Brasil (rodada 2) | 297 apps, cerca de 57% criados em 2026 |
+| [[Simulado do Exame de Suficiência do CFC]] (rodada 2) | 24+ produtos no Hotmart e um simulador com 50 mil+ instalações |
 
 ## Lições
 
@@ -36,6 +40,9 @@ Voltar para [[Armadilhas e ideias mortas]].
 - **A saída é estreitar:** a vistoria em geral é saturada, mas o laudo de **engenharia** não ([[Gerador de laudos de vistoria e inspeção]]). O Gantt genérico é saturado, mas uma cunha abaixo de US$ 1/usuário talvez não.
 - **O código se copia em meses.** A defesa é formato normativo, profundidade de SEO e preço transparente, não o software em si.
 
+> [!info] Rodadas 2 e 3
+> Em 2026 a saturação chega em semanas, não em anos: ver [[Padrão - enxurrada de micro-SaaS feito com IA]]. E a saturação é a metade do paradoxo que a pesquisa de mesa não resolve: [[Padrão - pesquisa de mesa não aprova G1 e G2]].
+
 ## Relacionadas
 
-[[Padrão - governo entrega de graça]] · [[Padrão - plataforma absorve o recurso]] · [[IA no centro do produto]]
+[[Padrão - enxurrada de micro-SaaS feito com IA]] · [[Padrão - busca por grátis e modelo]] · [[Padrão - governo entrega de graça]] · [[Padrão - plataforma absorve o recurso]] · [[IA no centro do produto]]
