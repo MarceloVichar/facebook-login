@@ -445,6 +445,7 @@ Seven candidates survive the constraints. Two stand out. The first is an **engin
 
 **C. Pest-control and water-tank-cleaning "service → certificate → recall" tool (vertical Jobber)**
 - **Product (one line):** a service order, a certificate following RDC 622/2022 (products, active ingredient, MS registration, target pest, technical lead, validity), a QR validation page, and automatic WhatsApp or email reminders to end clients before the certificate expires. The reminders double as rebooking.
+  - The certificate fields listed are a product hypothesis. The cited sources confirm only that a service-completion certificate exists and that Gestor de Dedetização prints signature, products, target pests and a photo report. Check the exact required fields against the RDC text.
 - **Buyer and size:** licensed pest-control and water-tank-cleaning companies. The number of firms is unknown.
 - **Pain:** certificates are produced from Word or PDF templates ("certificado de dedetização word / em pdf grátis / modelo"), and recurring revisits are tracked by hand.
 - **Competitors:** Gestor de Dedetização (R$350/mo; looks early-stage) and generic service-order apps (Produttivo).
