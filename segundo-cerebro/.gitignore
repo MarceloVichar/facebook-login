@@ -1,0 +1,4 @@
+# Estado local do Obsidian (muda a cada abertura; não versionar)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
