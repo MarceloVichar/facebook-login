@@ -1,3 +1,8 @@
 data/
 __pycache__/
 .env
+estado.json
+operacoes.csv
+bot.log
+PARAR
+.pytest_cache/

@@ -35,8 +35,33 @@ python experimento.py    # treino 2022–2024, teste 2025 em diante -> resultado
    (trend following; acerta só ~27% das vezes, ganha nas poucas tendências grandes).
 4. ~35 trades ainda é pouco para ter certeza estatística; pode ter sido sorte. Próximo passo é paper trading.
 
+## O bot autônomo (`bot.py`)
+
+Regra, aplicada sozinha a cada candle de 4h (00h, 04h, 08h… UTC):
+- média exponencial de 10 candles **acima** da de 100 → fica **comprado** em BTC;
+- **abaixo** → fica **fora**, em USDT.
+
+Proteções no código:
+- usa no máximo `ORCAMENTO_USDT` (15 USDT) e só mexe no que ele mesmo comprou;
+- se o patrimônio dele cair abaixo de `PARAR_ABAIXO_DE_USDT` (8 USDT), vende tudo e se desliga;
+- criar um arquivo `PARAR` na pasta desliga o bot no próximo ciclo;
+- conta real só com `--real` e digitando `SIM`.
+
+Tudo fica registrado em `operacoes.csv` (cada decisão) e `bot.log`.
+
+### Rodando no Windows
+1. Instale o Python 3.12+ em python.org (marque "Add Python to PATH").
+2. Baixe esta pasta e, no terminal dentro dela: `pip install -r requirements.txt`
+3. Teste sem ordens: `python bot.py --simular --uma-vez`
+4. Crie as chaves em https://testnet.binance.vision (login com GitHub → Generate HMAC_SHA256 Key),
+   copie `.env.exemplo` para `.env` e cole as chaves.
+5. Rode: `python bot.py` e deixe a janela aberta (e o PC sem hibernar).
+
+Testes: `python -m pytest test_bot.py`
+
 ## Próximos passos
-- [ ] Bot em modo **testnet** (dinheiro falso) rodando a estratégia 4h, com log de cada decisão.
-- [ ] Limites de risco no código: valor máximo por ordem, stop de perda total, botão de desligar.
+- [x] Bot em modo **testnet** (dinheiro falso) rodando a estratégia 4h, com log de cada decisão.
+- [x] Limites de risco no código: valor máximo por ordem, stop de perda total, botão de desligar.
+- [ ] Rodar no PC Windows com as chaves da testnet.
 - [ ] 4–8 semanas de testnet; comparar com o backtest.
 - [ ] Só então: conta real com R$ 50–100.
