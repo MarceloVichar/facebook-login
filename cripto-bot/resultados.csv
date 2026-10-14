@@ -1,0 +1,25 @@
+ativo,tempo,estrategia,params,treino_ret_%,teste_retorno_%,teste_max_dd_%,teste_trades,teste_acerto_%,teste_profit_factor,teste_exposicao_%
+BTCUSDT,15m,buy_hold,{},101.5,-11.2,-53.8,1,0.0,0.0,100.0
+BTCUSDT,15m,medias,"{'rapida': 50, 'lenta': 200}",-6.9,-50.0,-62.5,191,23.6,0.7,51.0
+BTCUSDT,15m,donchian,"{'entrada': 55, 'saida': 50}",-47.4,-66.2,-73.2,324,28.7,0.66,50.0
+BTCUSDT,15m,reversao_rsi,"{'n': 14, 'compra': 10, 'venda': 50}",0.0,0.0,0.0,0,0.0,inf,0.0
+BTCUSDT,1h,buy_hold,{},100.1,-11.8,-53.7,1,0.0,0.0,100.0
+BTCUSDT,1h,medias,"{'rapida': 50, 'lenta': 200}",70.6,-24.1,-42.8,50,28.0,0.76,50.2
+BTCUSDT,1h,donchian,"{'entrada': 100, 'saida': 50}",119.7,-25.6,-44.7,56,37.5,0.75,39.3
+BTCUSDT,1h,reversao_rsi,"{'n': 14, 'compra': 20, 'venda': 50}",0.6,-0.8,-0.8,1,0.0,0.0,0.0
+BTCUSDT,4h,buy_hold,{},100.9,-11.5,-53.4,1,0.0,0.0,100.0
+BTCUSDT,4h,medias,"{'rapida': 10, 'lenta': 100}",136.6,10.5,-30.7,33,27.3,1.28,48.1
+BTCUSDT,4h,donchian,"{'entrada': 55, 'saida': 50}",138.9,6.5,-24.5,17,29.4,1.26,45.6
+BTCUSDT,4h,reversao_rsi,"{'n': 14, 'compra': 30, 'venda': 70}",12.3,-2.9,-12.5,5,20.0,0.66,2.3
+ETHUSDT,15m,buy_hold,{},-9.7,-25.3,-69.3,1,0.0,0.0,100.0
+ETHUSDT,15m,medias,"{'rapida': 50, 'lenta': 200}",14.2,-51.6,-59.5,203,26.1,0.83,49.9
+ETHUSDT,15m,donchian,"{'entrada': 55, 'saida': 50}",-50.9,-52.9,-62.1,293,30.7,0.86,47.4
+ETHUSDT,15m,reversao_rsi,"{'n': 14, 'compra': 10, 'venda': 50}",0.0,0.0,0.0,0,0.0,inf,0.0
+ETHUSDT,1h,buy_hold,{},-10.4,-25.6,-69.1,1,0.0,0.0,100.0
+ETHUSDT,1h,medias,"{'rapida': 20, 'lenta': 50}",51.5,-63.1,-67.1,169,23.7,0.75,49.8
+ETHUSDT,1h,donchian,"{'entrada': 100, 'saida': 50}",1.6,-3.6,-47.6,51,35.3,1.12,36.0
+ETHUSDT,1h,reversao_rsi,"{'n': 14, 'compra': 30, 'venda': 70}",5.4,-16.6,-20.2,17,17.6,0.37,2.5
+ETHUSDT,4h,buy_hold,{},-10.0,-25.6,-68.0,1,0.0,0.0,100.0
+ETHUSDT,4h,medias,"{'rapida': 10, 'lenta': 100}",74.6,27.2,-37.5,36,27.8,1.44,46.6
+ETHUSDT,4h,donchian,"{'entrada': 100, 'saida': 50}",55.3,-13.3,-49.4,14,35.7,0.98,36.5
+ETHUSDT,4h,reversao_rsi,"{'n': 14, 'compra': 10, 'venda': 50}",0.0,0.0,0.0,0,0.0,inf,0.0
